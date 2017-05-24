@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalToBinary", "DecimalT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingBrackets", "MatchingBrackets\MatchingBrackets.csproj", "{D26B314A-91F6-4A99-AE93-DCED25D4C7EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotPotato", "HotPotato\HotPotato.csproj", "{CF98EBF6-190E-44A3-90D3-2DE661516F94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D26B314A-91F6-4A99-AE93-DCED25D4C7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D26B314A-91F6-4A99-AE93-DCED25D4C7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D26B314A-91F6-4A99-AE93-DCED25D4C7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF98EBF6-190E-44A3-90D3-2DE661516F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF98EBF6-190E-44A3-90D3-2DE661516F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF98EBF6-190E-44A3-90D3-2DE661516F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF98EBF6-190E-44A3-90D3-2DE661516F94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
