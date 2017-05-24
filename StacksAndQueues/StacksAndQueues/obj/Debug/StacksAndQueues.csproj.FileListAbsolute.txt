@@ -1,0 +1,6 @@
+D:\OneDrive\Documents\GitHub\CSharp-Advanced\StacksAndQueues\StacksAndQueues\bin\Debug\StacksAndQueues.exe.config
+D:\OneDrive\Documents\GitHub\CSharp-Advanced\StacksAndQueues\StacksAndQueues\bin\Debug\StacksAndQueues.exe
+D:\OneDrive\Documents\GitHub\CSharp-Advanced\StacksAndQueues\StacksAndQueues\bin\Debug\StacksAndQueues.pdb
+D:\OneDrive\Documents\GitHub\CSharp-Advanced\StacksAndQueues\StacksAndQueues\obj\Debug\StacksAndQueues.csprojResolveAssemblyReference.cache
+D:\OneDrive\Documents\GitHub\CSharp-Advanced\StacksAndQueues\StacksAndQueues\obj\Debug\StacksAndQueues.exe
+D:\OneDrive\Documents\GitHub\CSharp-Advanced\StacksAndQueues\StacksAndQueues\obj\Debug\StacksAndQueues.pdb
