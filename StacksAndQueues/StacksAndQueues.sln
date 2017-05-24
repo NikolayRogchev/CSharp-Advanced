@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StacksAndQueues", "StacksAn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{067C3EE8-DE3F-49E7-A6DF-0996B6CFF580}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalToBinary", "DecimalToBinary\DecimalToBinary.csproj", "{2D560545-4EC7-42B0-BC36-8857EC2C5B57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{067C3EE8-DE3F-49E7-A6DF-0996B6CFF580}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{067C3EE8-DE3F-49E7-A6DF-0996B6CFF580}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{067C3EE8-DE3F-49E7-A6DF-0996B6CFF580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D560545-4EC7-42B0-BC36-8857EC2C5B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D560545-4EC7-42B0-BC36-8857EC2C5B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D560545-4EC7-42B0-BC36-8857EC2C5B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D560545-4EC7-42B0-BC36-8857EC2C5B57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,7 +10,6 @@ namespace SimpleCalculator
     {
         static void Main(string[] args)
         {
-            // 2 + 5 + 10 - 2 - 1
             string equasion = Console.ReadLine();
             Stack<string> parts = new Stack<string>(equasion.Split(' ').Reverse());
             double result = 0;
