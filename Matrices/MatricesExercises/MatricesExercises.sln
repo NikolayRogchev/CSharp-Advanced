@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquaresInMatrix", "SquaresI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximalSum", "MaximalSum\MaximalSum.csproj", "{5E488ECE-0FAF-4549-89B5-9F2DA8EF26EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubicksCube", "RubicksCube\RubicksCube.csproj", "{D5BC2459-3AE8-41AF-B4F1-FE32E608E333}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5E488ECE-0FAF-4549-89B5-9F2DA8EF26EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E488ECE-0FAF-4549-89B5-9F2DA8EF26EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E488ECE-0FAF-4549-89B5-9F2DA8EF26EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BC2459-3AE8-41AF-B4F1-FE32E608E333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BC2459-3AE8-41AF-B4F1-FE32E608E333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BC2459-3AE8-41AF-B4F1-FE32E608E333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BC2459-3AE8-41AF-B4F1-FE32E608E333}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
