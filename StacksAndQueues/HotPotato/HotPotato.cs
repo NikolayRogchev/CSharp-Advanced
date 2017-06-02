@@ -10,14 +10,15 @@ namespace HotPotato
     {
         static void Main(string[] args)
         {
-            List<string> children = "Gosho Pesho Misho Stefan Krasi".Split(' ').ToList();// new List<string>(Console.ReadLine().Split(' '));
-            int step = 10;// int.Parse(Console.ReadLine());
+            List<string> children = new List<string>(Console.ReadLine().Split(' '));
+            int step = int.Parse(Console.ReadLine());
             Queue<string> removedChildren = new Queue<string>();
+            int index = (step - 1) % children.Count;
             while (children.Count > 1)
             {
-                int index = (step - 1) % children.Count;
                 removedChildren.Enqueue(children[index]);
                 children.RemoveAt(index);
+                index = (index + step - 1) % children.Count;
             }
             while (removedChildren.Count > 0)
             {
