@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximalSum", "MaximalSum\Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubicksCube", "RubicksCube\RubicksCube.csproj", "{D5BC2459-3AE8-41AF-B4F1-FE32E608E333}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snakes", "Snakes\Snakes.csproj", "{9E8109A5-3C28-4CA4-9211-F31160DBACDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegoBlocks", "LegoBlocks\LegoBlocks.csproj", "{C2D6632A-04E8-4DAA-8D0D-0F62F7B9EE15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{D5BC2459-3AE8-41AF-B4F1-FE32E608E333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5BC2459-3AE8-41AF-B4F1-FE32E608E333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5BC2459-3AE8-41AF-B4F1-FE32E608E333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8109A5-3C28-4CA4-9211-F31160DBACDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8109A5-3C28-4CA4-9211-F31160DBACDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8109A5-3C28-4CA4-9211-F31160DBACDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8109A5-3C28-4CA4-9211-F31160DBACDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D6632A-04E8-4DAA-8D0D-0F62F7B9EE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D6632A-04E8-4DAA-8D0D-0F62F7B9EE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D6632A-04E8-4DAA-8D0D-0F62F7B9EE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D6632A-04E8-4DAA-8D0D-0F62F7B9EE15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
