@@ -25,20 +25,51 @@ namespace RadioactiveBunnies
                 isAlive = resultAfterTurn.Item1;
                 bool hasWon = resultAfterTurn.Item2;
                 SpreadBunnies(matrix);
-                if (!isAlive)
-                {
-                    PrintMatrix(matrix);
-                    Console.WriteLine($"Dead: {playerPos.Item1} {playerPos.Item2}");
-                    break;
-                }
+                //Console.WriteLine("--------------------------------------");
+                //PrintMatrix(matrix);
                 if (hasWon)
                 {
+                    matrix[playerPos.Item1][playerPos.Item2] = '.';
                     PrintMatrix(matrix);
                     Console.WriteLine($"Won: {playerPos.Item1} {playerPos.Item2}");
                     break;
                 }
-                playerPos = UpdatePlayerPosition(command, playerPos, matrix);
+                if (!isAlive)
+                {
+                    PrintMatrix(matrix);
+                    playerPos = UpdatePlayerCoordinates(command, playerPos);
+                    Console.WriteLine($"Dead: {playerPos.Item1} {playerPos.Item2}");
+                    break;
+                }
+                else
+                {
+                    playerPos = UpdatePlayerPosition(command, playerPos, matrix);
+                }
+
+                
             }
+        }
+
+        private static Tuple<int, int> UpdatePlayerCoordinates(char command, Tuple<int, int> playerPos)
+        {
+            int row = playerPos.Item1;
+            int col = playerPos.Item2;
+            switch (command)
+            {
+                case 'L':
+                    col--;
+                    break;
+                case 'R':
+                    col++;
+                    break;
+                case 'U':
+                    row--;
+                    break;
+                case 'D':
+                    row++;
+                    break;
+            }
+            return Tuple.Create(row, col);
         }
 
         private static Tuple<int, int> UpdatePlayerPosition(char command, Tuple<int, int> playerPos, char[][] matrix)
@@ -69,58 +100,38 @@ namespace RadioactiveBunnies
         {
             bool hasWon;
             bool hasCollidedWithBunny = HasCollidedWithBunny(matrix, command, playerPos, out hasWon);
-            int row = playerPos.Item1;
-            int col = playerPos.Item2;
-            if (!hasCollidedWithBunny && !hasWon)
-            {
-                switch (command)
-                {
-                    case 'L':
-                        matrix[row][col - 1] = 'B';
-                        break;
-                    case 'R':
-                        matrix[row][col + 1] = 'B';
-                        break;
-                    case 'U':
-                        matrix[row - 1][col] = 'B';
-                        break;
-                    case 'D':
-                        matrix[row + 1][col] = 'B';
-                        break;
-                }
-            }
-            return Tuple.Create(hasCollidedWithBunny, hasWon);
+            return Tuple.Create(!hasCollidedWithBunny, hasWon);
         }
 
         private static bool HasCollidedWithBunny(char[][] matrix, char command, Tuple<int, int> playerPos, out bool hasWon)
         {
             bool hasCollided = false;
-            int row = playerPos.Item1;
-            int col = playerPos.Item2;
+            int playerRow = playerPos.Item1;
+            int playerCol = playerPos.Item2;
             try
             {
                 switch (command)
                 {
                     case 'L':
-                        if (matrix[row][col - 1] == 'B')
+                        if (matrix[playerRow][playerCol - 1] == 'B')
                         {
                             hasCollided = true;
                         }
                         break;
                     case 'R':
-                        if (matrix[row][col + 1] == 'B')
+                        if (matrix[playerRow][playerCol + 1] == 'B')
                         {
                             hasCollided = true;
                         }
                         break;
                     case 'U':
-                        if (matrix[row - 1][col] == 'B')
+                        if (matrix[playerRow - 1][playerCol] == 'B')
                         {
                             hasCollided = true;
                         }
                         break;
                     case 'D':
-                        if (matrix[row + 1][col] == 'B')
+                        if (matrix[playerRow + 1][playerCol] == 'B')
                         {
                             hasCollided = true;
                         }
@@ -186,9 +197,6 @@ namespace RadioactiveBunnies
             {
                 matrix[row][col + 1] = 'B';
             }
-
-            Console.WriteLine("--------------------------------------");
-            PrintMatrix(matrix);
         }
 
         static Tuple<int, int> FindPlayer(char[][] matrix)
