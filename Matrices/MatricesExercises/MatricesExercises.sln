@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixOfPalindromes", "MatrixOfPalindromes\MatrixOfPalindromes.csproj", "{D7BD8A9B-8072-4BD8-997E-53A355694E4B}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snakes", "Snakes\Snakes.csproj", "{9E8109A5-3C28-4CA4-9211-F31160DBACDE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegoBlocks", "LegoBlocks\LegoBlocks.csproj", "{C2D6632A-04E8-4DAA-8D0D-0F62F7B9EE15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioactiveBunnies", "RadioactiveBunnies\RadioactiveBunnies.csproj", "{C20A3D00-FA31-48A7-8BA4-3A8F0D48D135}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{C2D6632A-04E8-4DAA-8D0D-0F62F7B9EE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2D6632A-04E8-4DAA-8D0D-0F62F7B9EE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2D6632A-04E8-4DAA-8D0D-0F62F7B9EE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20A3D00-FA31-48A7-8BA4-3A8F0D48D135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20A3D00-FA31-48A7-8BA4-3A8F0D48D135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20A3D00-FA31-48A7-8BA4-3A8F0D48D135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20A3D00-FA31-48A7-8BA4-3A8F0D48D135}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
